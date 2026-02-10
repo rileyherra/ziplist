@@ -18,6 +18,5 @@ function zipListTheFunctionalWay(a, b) {
         return acc;
     }, []);
 }
-// Console output checks:
 console.log(zipList(['a', 'b', 'c'], [1, 2, 3]));
 console.log(zipListTheFunctionalWay(['a', 'b', 'c'], [1, 2, 3]));
